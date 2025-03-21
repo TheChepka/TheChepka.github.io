@@ -1,0 +1,238 @@
+section.main {
+    padding-top: 0.5cm;
+    padding-bottom: 3cm;
+    background-color: #F8EDEA;
+}
+div.maintext{
+    margin: 1cm 2cm 1.5cm 0cm ;
+}
+
+div.mainbutton {
+margin: 1cm 2cm 1.5cm 1cm;
+}
+
+div.mainbutton button{
+    border-radius: 25px;
+    background-color: #C1443E;
+}
+div.mainbutton img{
+    width: 6%;
+    margin-left: 5%;
+    align-self: center;
+}
+
+a:link{
+    color:black;
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:#F3DBDA;
+}
+
+a:active{
+    color:#F3DBDA;
+}
+
+/* Section 2 
+________________________________________________________________________________________________________________________________________ */
+
+section.secondpage{
+    padding-bottom: 3cm;
+    background-color: #C1443E;
+}
+
+ul.izuch li{
+    margin: 0.5cm;
+    
+}
+
+#etc{
+    margin-top: 2cm;
+    vertical-align: bottom;
+    align-self:center;
+}
+
+#video{
+    align-self: center;
+}
+#video h1{
+    align-self: center;
+    margin-bottom: 1cm;
+
+}
+
+div.courses{
+    margin-top: 1.2cm;
+}
+
+#content {
+    position: relative;
+    background-color: #981614;
+    margin: 1cm 1cm 1cm 0cm;
+    justify-content: space-between 1cm;
+    border-radius: 25px;
+}
+#content img {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+
+    width: 25%;
+}
+#content h5 {
+margin-top: 0.2cm ;
+
+}
+#content h4 {
+    margin-top: 1cm ;
+    }
+
+/* Questions
+______________________________________________________________________________________________________________________________________________________________ */
+
+section.questions{
+    padding: 4cm 4cm 5cm 4cm;
+    background-color: #F8EDEA;
+}
+
+/* Foter
+_____________________________________________________________________________________________________________________________________________________ */
+footer{
+    background-color:gray;
+}
+#icons img{
+    width: 1cm;
+    margin:5px;
+}
+#icons{
+    margin-left: 0.2cm;
+}
+
+/*HEADER
+/"Выставляем все элементы хедера в ряд */
+/* div.header {
+padding: 3% 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+} */
+/*Элементы логотипа выстраиваем столбцом во флексбоксе*/
+/* div.header div.logo {
+display: flex;
+flex-direction: column;
+align-items: center;
+} */
+/*Размер заголовка*/
+/* div.logo hit {
+font-size: medium;
+} */
+/*Ширина навигации будет занимать 50% от всего блока, текст выравнен по центру*/
+/* div.header div.nav {
+width: 50%;
+text-align: center;
+} */
+/* Для элементов списка 11 убираем стиль маркеров, выстраиваем по линии, делаем отступы справа и слева, которое занимает 2% от размера блока*/ 
+/* div.header div.nav li {
+list-style-type: none;
+display: inline;
+margin: 0 2%;
+} */
+/*Иконки занимают 13 % от всей ширины блока, выстраиваем по ширине, сами элементы в блоке выравниваем по центру, внутренние отступы равны 1% от всего данного блока иконок.*/ 
+/* div.header div.icons {
+width: 13%;
+display: flex;
+justify-content: space-between;
+padding: 1%;
+} */
+/*Задаём размеры иконок*/
+/* div.header div.icons img{
+width: 25px;
+height: 25px;
+} */
+/* Стиль кнопок */
+/* button {
+background-color: #ff5b35;
+color: #fcfcfa;
+border:0;
+border-radius: 0.7rem;
+padding: 1rem 2rem;
+margin: 2rem 0;
+} */
+
+
+
+.layout{
+    width: 600px;
+    margin: auto;
+}
+.accordion{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+.accordion__question p{
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+}
+.accordion__answer p{
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background: #5E5E5E;
+    border-radius: 10px; 
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.accordion__answer {
+    display: none;
+} 
+.accordion.active .accordion__answer {
+    display: block;
+}
+
+/* FORM */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #C1443E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #981614;
+  }
+  
+  div.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
